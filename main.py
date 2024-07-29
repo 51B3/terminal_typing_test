@@ -117,6 +117,7 @@ def output(current, rest=None):
         except StopIteration:
             pass
 
+    
     while True:
         key = msvcrt.getch()
         # CTRL + R
