@@ -70,10 +70,11 @@ typos = 0
 def stat():
     global speed, typos
     cpm = round((len(text) - typos) / (sum(speed) / 60))
+    wpm = round(((len(text) - typos) / 5) / (sum(speed) / 60))
     accuracy = round((len(text) - typos) / len(text) * 100)
     clear()
     print(f'{Fore.BLUE}Statistics:{Fore.RESET}\n')
-    print(f'CPM: {cpm}\naccuracy: {accuracy}%\n')
+    print(f'CPM: {cpm}\nWPM: {wpm}\naccuracy: {accuracy}%\n')
     print(f'{Fore.LIGHTBLACK_EX}↱ Ctrl + M    ☓ Ctrl + C{Fore.RESET}')
     while True:
         sym = msvcrt.getch()
