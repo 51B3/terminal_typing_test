@@ -1,7 +1,7 @@
 import time
 import json
 import cutie
-import msvcrt
+import readchar
 import random
 
 from colorama import Back, Fore
@@ -77,11 +77,11 @@ def stat():
     print(f'CPM: {cpm}\nWPM: {wpm}\naccuracy: {accuracy}%\n')
     print(f'{Fore.LIGHTBLACK_EX}↱ Ctrl + M    ☓ Ctrl + C{Fore.RESET}')
     while True:
-        sym = msvcrt.getch()
-        if sym == b'\x03':
+        sym = readchar.readchar()
+        if sym == readchar.key.CTRL_C:
             return
         
-        if sym == b'\x0D':
+        if sym == readchar.key.CTRL_M: # Не функционирует
             speed = []
             typos = 0
             menu()
@@ -122,14 +122,13 @@ def draw(current, rest=None):
 
 
     while True:
-        sym = msvcrt.getch()
-        if sym == b'\x12':
+        sym = readchar.readchar()
+        if sym == readchar.key.CTRL_R:
             speed = []
             typos = 0
             gen(amount)
             return
 
-        sym = sym.decode()
         if sym.isprintable():
             get(sym)
 
