@@ -6,8 +6,6 @@
 ---
 
 ## 📥 Installation
-To install and run the Terminal Typing Test, follow these steps:
-
 1. Clone the repository:
 ```bash
 git clone https://github.com/51B3/terminal_typing_test.git
