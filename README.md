@@ -1,4 +1,4 @@
-# Terminal Typing Test 🚀
+# Terminal Typing Test
 
 [![Python Version](https://img.shields.io/badge/Python-3.13.3-blue)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
@@ -7,22 +7,22 @@
 
 ---
 
-## 🛠 Installation
+## 📥 Installation
 
 1. Clone the repository:
    ```bash
-   $ git clone https://github.com/51B3/terminal_typing_test.git
-   $ cd terminal_typing_test
+   git clone https://github.com/51B3/terminal_typing_test.git
+   cd terminal_typing_test
    ```
 
 2. Install dependencies:
    ```bash
-   $ pip install -r requirements.txt
+   pip install -r requirements.txt
    ```
 
 3. Run the program:
    ```bash
-   $ python main.py
+   python main.py
    ```
 
 ---
@@ -66,15 +66,15 @@ If you would like to contribute to this project, follow these steps:
 1. Fork the repository.
 2. Create a new branch:
    ```bash
-   $ git checkout -b feature/your-feature-name
+   git checkout -b feature/your-feature-name
    ```
 3. Make your changes and commit them:
    ```bash
-   $ git commit -m "Added new feature"
+   git commit -m "Added new feature"
    ```
 4. Push your changes to your fork:
    ```bash
-   $ git push origin feature/your-feature-name
+   git push origin feature/your-feature-name
    ```
 5. Submit a Pull Request.
 
