@@ -6,18 +6,20 @@
 ---
 
 ## 📥 Installation
-Clone the repository:
+To install and run the Terminal Typing Test, follow these steps:
+
+1. Clone the repository:
 ```bash
 git clone https://github.com/51B3/terminal_typing_test.git
 cd terminal_typing_test
 ```
 
-Install dependencies:
+2. Install the required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the program:
+3. Execute the program:
 ```bash
 python main.py
 ```
