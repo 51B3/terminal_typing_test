@@ -6,19 +6,18 @@
 ---
 
 ## 📥 Installation
-
-1. Clone the repository:
+Clone the repository:
 ```bash
 git clone https://github.com/51B3/terminal_typing_test.git
 cd terminal_typing_test
 ```
 
-2. Install dependencies:
+Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Run the program:
+Run the program:
 ```bash
 python main.py
 ```
